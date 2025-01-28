@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['player']
+
+roboflow:
+  workspace: finalworkehb
+  project: player-3yyqq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/finalworkehb/player-3yyqq/dataset/1
